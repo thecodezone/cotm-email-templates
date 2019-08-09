@@ -36,7 +36,7 @@ You can use email templates by rendering the template views directly:
 or by extending them:
 
 ```blade
-    @extends('_layouts.cotm')
+    @extends('email:templates::cotm')
     
     @section('body')
         @component('email:components::section')
@@ -61,7 +61,7 @@ The following components can be used to compose the body of your email.
 Use to visually separate email sections from each other. Section background colors are zebra-striped automatically. 
 
 ```blade
-    @extends('_layouts.cotm')
+    @extends('email:templates::cotm')
     
     @section('body')
         @component('email:components::section')
