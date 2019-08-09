@@ -1,0 +1,103 @@
+<?php
+    $gutterX = $gutterX ?? '30px';
+    $gutterY =  $gutterX ?? '24px';
+    $light = $light ?? '#fff';
+    $dark = $dark ?? '#f5f5f5';
+    $darker = $darker ?? '#EEEEEE';
+    $black = $black ?? '#000';
+?>
+
+<style type="text/css">
+    .image {
+        margin-bottom: 18px;
+    }
+
+    .image > img {
+        width: 100%;
+        max-width: 100%;
+        height: auto;
+        margin-bottom: 0px;
+        display: block;
+    }
+
+    .image.withBorder {
+        border: 1px solid {{ $darker }};
+    }
+
+    .image.stretched {
+        margin-left: -{{ $gutterX }};
+        margin-right: -{{ $gutterX }};
+    }
+
+    .image.stretched:first-child {
+        margin-top: -{{ $gutterY  }};
+    }
+
+    .image.stretched:last-child {
+        margin-bottom: -{{ $gutterY  }};
+    }
+
+    blockquote {
+        margin-top: {{ $gutterY }};
+        margin-bottom: {{ $gutterY }};
+        background-color: {{ $dark }};
+        padding: 18px;
+        border-bottom: solid 5px {{ $darker }};
+        font-size: 1.3em;
+        font-style: italic;
+    }
+
+    blockquote footer {
+        font-size: .7em;
+        font-weight: bold;
+        margin-top: 18px;
+        font-style: initial;
+    }
+
+    table.section:nth-child(odd) {
+        background-color: {{ $light }};
+    }
+
+    table.section:nth-child(even) {
+        background-color: {{ $dark }};
+    }
+
+    table.section:nth-child(even) blockquote {
+        background-color: {{ $light }};
+    }
+
+    table.table {
+        width: 100%;
+        margin: 25px 0;
+    }
+
+    .table.table th {
+        background-color: {{ $black }};
+        color: {{ $light }};
+    }
+
+    .table.table tr {
+        border-bottom: solid 1px {{ $darker }};
+    }
+
+    .table.table tfoot td {
+        background-color: {{ $darker }};
+        font-style: italic;
+        font-weight: bold;
+    }
+
+    .table.table tr:nth-child(even) {
+        background-color: {{ $light }};
+    }
+
+    .table.table tr:nth-child(odd) {
+        background-color: {{ $dark }};
+    }
+
+    .table.table th,
+    .table.table td {
+        padding: 10px;
+    }
+
+
+</style>
