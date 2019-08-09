@@ -1,7 +1,6 @@
 COTM Email Templates
 --------------------
-
-Provides Blades and HTML versions of Church on the Move email templates, along with helpful blade components and includes for use in building emails. 
+Provides Blades and HTML versions of Church on the Move email templates, along with helpful blade components and includes for use in building emails.
 
 ## Usage
 
@@ -31,7 +30,7 @@ Once you've included the package, you'll be able to use the following:
 You can use email templates by rendering the template views directly:
 
 ```php
-    view('email:templates::cotm', ['content' => $htmlContent)->render();
+    view('email:templates::cotm', ['content' => $htmlContent]);
 ```
 
 or by extending them:
@@ -48,7 +47,7 @@ or by extending them:
     @endsection
 ```
  
- #### Available Templates
+#### Available Templates
  
 - `email:templates::cotm`
 - `email:templates::lcs`
