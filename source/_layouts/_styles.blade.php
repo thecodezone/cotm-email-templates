@@ -1,10 +1,13 @@
 <?php
     $gutterX = $gutterX ?? '30px';
     $gutterY =  $gutterX ?? '24px';
+    $spacingX = $spacingX ?? '10px';
+    $spacingY =  $spacingY ?? '6px';
     $light = $light ?? '#fff';
     $dark = $dark ?? '#f5f5f5';
     $darker = $darker ?? '#EEEEEE';
     $black = $black ?? '#000';
+    $brand = $brand ?? '#EC0843';
 ?>
 
 <style type="text/css">
@@ -97,6 +100,18 @@
     .table.table th,
     .table.table td {
         padding: 10px;
+    }
+
+    .btn {
+        display: inline-block;
+        padding: {{ $spacingY }} {{ $spacingX }};
+        margin: {{ $spacingY }} {{ $spacingX }};
+        color: {{ $brand }} !important;
+        background-color: transparent;
+        text-transform: uppercase;
+        text-decoration: none !important;
+        border: solid 3px {{ $brand }};
+        text-align: center;
     }
 
 

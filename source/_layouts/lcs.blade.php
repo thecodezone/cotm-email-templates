@@ -1,3 +1,6 @@
+<?php
+    $brand = '#c5b682';
+?>
 <!doctype html>
 <html xmlns="http://www.w3.org/1999/xhtml" xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office">
 <head>
@@ -227,7 +230,7 @@
             background-repeat:no-repeat;
             background-position:center;
             background-size:cover;
-            border-top:5px solid #c5b682;
+            border-top:5px solid {{ $brand }};
             border-bottom:0;
             padding-top:9px;
             padding-bottom:9px;
@@ -316,12 +319,6 @@
             .mcnImageGroupBlockOuter{
                 padding-top:9px !important;
                 padding-bottom:9px !important;
-            }
-
-        }	@media only screen and (max-width: 480px){
-            .mcnTextContent,.mcnBoxedTextContentColumn{
-                padding-right:18px !important;
-                padding-left:18px !important;
             }
 
         }	@media only screen and (max-width: 480px){

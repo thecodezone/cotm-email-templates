@@ -126,7 +126,36 @@ A responsive data table component built specifically to work well with the templ
    @endcomponent
 ```
 
+- `email:components::buttons`
+
+A wrapper to center one or multiple buttons.
+
+```blade
+   @component('email:components::buttons')
+        @include('email:partials::button', ['href' => 'http://www.google.com/', 'title' => 'Google')
+        @include('email:partials::button', ['href' => 'http://www.yahoo.com/', 'title' => 'Yahoo')
+   @endcomponent
+```
+
+- `email:components::button`
+
+You can also use a button component instead of a partial.
+
+```blade
+   @component('email:components::buttons')
+        @component('email:partials::button', ['href' => 'http://www.google.com/', 'title' => 'Google')
+            <strong>
+                Google
+            </strong>
+        @endcomponent
+   @endcomponent
+```
+
 ### Partials
+
+- `email:partials::button`
+
+See above for implementation.
 
 - `email:partials::content`
 
@@ -168,4 +197,5 @@ Compose the table component with an array.
             ]
     )
 ```
+
 

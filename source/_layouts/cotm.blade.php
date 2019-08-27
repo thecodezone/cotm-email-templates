@@ -334,12 +334,6 @@
             }
 
         }	@media only screen and (max-width: 480px){
-            .mcnTextContent,.mcnBoxedTextContentColumn{
-                padding-right:18px !important;
-                padding-left:18px !important;
-            }
-
-        }	@media only screen and (max-width: 480px){
             .mcnImageCardLeftImageContent,.mcnImageCardRightImageContent{
                 padding-right:18px !important;
                 padding-bottom:0 !important;
