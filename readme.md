@@ -1,7 +1,6 @@
 COTM Email Templates
 --------------------
-
-Provides Blades and HTML versions of Church on the Move email templates, along with helpful blade components and includes for use in building emails. 
+Provides Blades and HTML versions of Church on the Move email templates, along with helpful blade components and includes for use in building emails.
 
 ## Usage
 
@@ -31,13 +30,13 @@ Once you've included the package, you'll be able to use the following:
 You can use email templates by rendering the template views directly:
 
 ```php
-    view('email:templates::cotm', ['content' => $htmlContent)->render();
+    view('email:templates::cotm', ['content' => $htmlContent]);
 ```
 
 or by extending them:
 
 ```blade
-    @extends('_layouts.cotm')
+    @extends('email:templates::cotm')
     
     @section('body')
         @component('email:components::section')
@@ -48,7 +47,7 @@ or by extending them:
     @endsection
 ```
  
- #### Available Templates
+#### Available Templates
  
 - `email:templates::cotm`
 - `email:templates::lcs`
@@ -62,7 +61,7 @@ The following components can be used to compose the body of your email.
 Use to visually separate email sections from each other. Section background colors are zebra-striped automatically. 
 
 ```blade
-    @extends('_layouts.cotm')
+    @extends('email:templates::cotm')
     
     @section('body')
         @component('email:components::section')
@@ -83,45 +82,17 @@ A responsive data table component built specifically to work well with the templ
 ```blade
    @component('email:components::table')
         @slot('head')
-            <th>
-                Name
-            </th>
-            <th>
-                Description
-            </th>
-            <th>
-                Price
-            </th>
+            <th>Name</th><th>Description</th><th>Price</th>
        @endslot
        <tr>
-           <td>
-               Ticket 1
-           </td>
-           <td>
-               General Admission
-           </td>
-           <td>
-              $10.00
-           </td>
+           <td>Ticket 1</td><td>General Admission</td><td>$10.00</td>
        </tr>
        <tr>
-          <td>
-              Ticket 2
-          </td>
-          <td>
-              General Admission
-          </td>
-          <td>
-             $10.00
-          </td>
+           <td>Ticket 2</td><td>General Admission</td><td>$10.00</td>
        </tr>
         @slot('foot')
-            <td colspan="3">
-                Total:
-           </td>
-           <td>
-                $20.00
-           </td>
+            <td colspan="3">Total:</td>
+           <td>$20.00</td>
         @endslot
    @endcomponent
 ```
