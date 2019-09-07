@@ -5,3 +5,7 @@
         *|content|*
     @endcomponent
 @endsection
+
+@section('legal')
+    *|legal|*
+@endsection

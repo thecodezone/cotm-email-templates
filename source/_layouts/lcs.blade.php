@@ -685,8 +685,12 @@
 
                                                 <td valign="top" class="mcnTextContent" style="padding-top:0; padding-right:18px; padding-bottom:9px; padding-left:18px;">
                                                     @section("legal")
-                                                        <em>1003 N 129th E Ave, Tulsa, OK 74116</em><br />
-                                                        <em>Copyright © Lincoln Christian School, All rights reserved.</em><br>
+                                                        @if(isset($legal))
+                                                            {!! $legal !!}
+                                                        @else
+                                                            <em>1003 N 129th E Ave, Tulsa, OK 74116</em><br />
+                                                            <em>Copyright © Lincoln Christian School, All rights reserved.</em><br>
+                                                        @endif
                                                     @show
                                                 </td>
                                             </tr>
