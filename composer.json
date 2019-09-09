@@ -1,0 +1,25 @@
+{
+    "name": "cotm/email-templates",
+    "description": "Provides Blades and HTML versions of Church on the Move email templates, along with helpful blade components and includes for use in building emails.",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Craig Wann",
+            "email": "craig@codezone.io"
+        }
+    ],
+    "autoload-dev": {
+        "psr-4": {
+            "App\\": "app/"
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Cotm\\EmailTemplates\\": "src/"
+        }
+    },
+    "require-dev": {
+        "tightenco/jigsaw": "^1.3",
+        "samdark/sitemap": "^2.2"
+    }
+}
