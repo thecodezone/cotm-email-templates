@@ -11,7 +11,7 @@ Register the the VCS repository in your `composer.json`.
         "repositories": {
           "email-templates": {
                 "type": "vcs",
-                "url": "git@bitbucket.org:cotmtulsa/email-templates.git"
+                "url": "git@bitbucket.org:cotmtulsa/email-templates-v2.git"
             }
         }
     }
