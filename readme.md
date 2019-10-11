@@ -30,7 +30,7 @@ Once you've included the package, you'll be able to use the following:
 You can use email templates by rendering the template views directly:
 
 ```php
-    view('email:templates::cotm', ['content' => $htmlContent]);
+    view('email:templates::cotm', ['content' => $htmlOrMarkdownContent]);
 ```
 
 or by extending them:
@@ -45,6 +45,16 @@ or by extending them:
             <p>When calling the template directly instead of extending, your content will automatically be wrapped in a section if it isn't already.</p>
         @endcomponent
     @endsection
+```
+
+or by using them as a component:
+
+```blade
+    @component('email:templates::cotm')
+        # This allows you to use Markdown.
+
+        This is equivalent calling the view directly with a content variable. This is the same syntax used by Laravel Mailables.  
+    @endcomponent
 ```
  
 #### Available Templates

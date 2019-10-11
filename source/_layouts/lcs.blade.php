@@ -465,8 +465,10 @@
                                             <tbody><tr>
 
                                                 <td valign="top" class="mcnTextContent">
-                                                    @section("content")
-                                                        @if(isset($content))
+                                                    @section('content')
+                                                        @if(isset($slot))
+                                                            @include("email:partials::content", ['content' => $slot])
+                                                        @elseif(isset($content))
                                                             @include("email:partials::content", ['content' => $content])
                                                         @endif
                                                     @show

@@ -4,8 +4,8 @@
 
 @if($section)
     @component('email:components::section')
-        {!! $content !!}
+        {!! Illuminate\Mail\Markdown::parse($content) !!}
     @endcomponent
 @else
-    {!! $content !!}
+    {!! Illuminate\Mail\Markdown::parse($content) !!}
 @endif
