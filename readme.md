@@ -4,22 +4,10 @@ Provides Blades and HTML versions of Church on the Move email templates, along w
 
 ## Usage
 
-Register the the VCS repository in your `composer.json`.
-
-```json
-    {
-        "repositories": {
-          "email-templates": {
-                "type": "vcs",
-                "url": "git@bitbucket.org:cotmtulsa/email-templates-v2.git"
-            }
-        }
-    }
-```
-
-Now you can install the package with:
+Install the package with:
 
 ```bash
+    composer config 'repo.email-templates' vcs git@bitbucket.org:cotmtulsa/email-templates-v2.git
     composer require cotm/email-templates
 ```
 
