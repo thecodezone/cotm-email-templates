@@ -1,6 +1,6 @@
 @extends('_layouts.cotm')
 
-@section('body')
+@section('content')
     @component('email:components::section')
         *|content|*
     @endcomponent

@@ -1,6 +1,6 @@
 @extends('_layouts.lcs')
 
-@section('body')
+@section('content')
     @component('email:components::section')
         *|content|*
     @endcomponent
