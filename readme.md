@@ -50,6 +50,15 @@ or by using them as a component:
 - `email:templates::cotm`
 - `email:templates::lcs`
 
+#### Using outside of Laravel
+
+HTML files are provided for use outside of laravel. HTML templates contain `*|content|*` and `*|legal|*` merge tags. These tags can be replaced with your content. 
+
+HTML file paths: 
+
+- `/build_local/cotm/index.html`
+- `/build_locl/lcs/index.html`
+
 ### Components
 
 The following components can be used to compose the body of your email. 
@@ -120,6 +129,14 @@ You can also use a button component instead of a partial.
    @endcomponent
 ```
 
+#### Laravel components
+
+The following [laravel mailable components](https://laravel.com/docs/5.8/mail#markdown-mailables) are supported and fit visually in all templates.  
+
+- Button Component (`mail::button`)
+- Panel Component (`mail::panel`)
+- Table Component (`mail::table`)
+
 ### Partials
 
 - `email:partials::button`
@@ -166,5 +183,17 @@ Compose the table component with an array.
             ]
     )
 ```
+
+## Development
+
+This package uses [Jigsaw](https://jigsaw.tighten.co/). Run the following commands to build the HTML files locally: 
+
+```bash
+./vendor/bin/jigsaw build
+```
+or
+```bash
+yarn watch
+``` 
 
 

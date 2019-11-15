@@ -35,6 +35,7 @@
         }
     },
     "require": {
-        "tightenco/jigsaw": "dev-master#8ac8e65a32da04b62b38788c347928ee59a5686d"
+        "tightenco/jigsaw": "dev-master#8ac8e65a32da04b62b38788c347928ee59a5686d",
+        "illuminate/mail": "v5.8.35"
     }
 }
