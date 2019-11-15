@@ -56,8 +56,8 @@ HTML files are provided for use outside of laravel. HTML templates contain `*|co
 
 HTML file paths: 
 
-- `/build_local/cotm/index.html`
-- `/build_locl/lcs/index.html`
+- `/build_production/cotm/index.html`
+- `/build_production/lcs/index.html`
 
 ### Components
 
@@ -196,4 +196,9 @@ or
 yarn watch
 ``` 
 
+After changes to the templates or styles are made, you should rebuild and the HTML files and commit the changes.
+
+```bash
+yarn prod
+```
 
