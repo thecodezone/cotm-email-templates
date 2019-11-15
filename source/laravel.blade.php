@@ -3,7 +3,7 @@
 @section('content')
     @component('email:components::section')
         <p>
-            Lets see how much space thsi takes up!
+            Lets see how much space this takes up!
         </p>
         <table class="action" align="center" width="100%" cellpadding="0" cellspacing="0">
             <tr>
@@ -25,7 +25,7 @@
             </tr>
         </table>
         <p>
-            Lets see how much space thsi takes up!
+            Lets see how much space this takes up!
         </p>
         <table class="panel" width="100%" cellpadding="0" cellspacing="0">
             <tr>
@@ -41,7 +41,7 @@
             </tr>
         </table>
         <p>
-            Lets see how much space thsi takes up!
+            Lets see how much space this takes up!
         </p>
         <div class="table">
             {!! \Illuminate\Mail\Markdown::parse("| Laravel       | Table         | Example  |
