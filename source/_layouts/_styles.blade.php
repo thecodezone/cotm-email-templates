@@ -135,11 +135,11 @@
     .subcopy {
         font-size: .9em;
         border-top: solid 1px {{ $darker }};
-        margin-top: {{ $spacingY }};
+        margin-top: {{ $gutterY }};
     }
 
     .subcopy tr td {
-        padding-top: {{ $gutterY }};
+        padding-top: {{ $spacingY }};
         color: {{ $black }};
     }
 
