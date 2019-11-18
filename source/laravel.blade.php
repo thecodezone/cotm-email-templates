@@ -1,5 +1,15 @@
 @extends('_layouts.lcs')
 
+@section('logo')
+    <tr>
+        <td class="header">
+            <a href="http://www.google.com/" style="display: inline-block;">
+                <img src="https://laravel.com/img/notification-logo.png" class="logo" alt="Laravel Logo">
+            </a>
+        </td>
+    </tr>
+@endsection
+
 @section('content')
     @component('email:components::section')
         <p>
@@ -49,9 +59,26 @@
                 | Col 2 is      | Centered      | $10      |
                 | Col 3 is      | Right-Aligned | $20      |") !!}
         </div>
+        <table class="subcopy" width="100%" cellpadding="0" cellspacing="0" role="presentation">
+            <tr>
+                <td>
+                    This is some subcopy! isn't it interesting!
+                </td>
+            </tr>
+        </table>
     @endcomponent
 @endsection
 
 @section('legal')
-    *|legal|*
+    <tr>
+        <td>
+            <table class="footer" align="center" width="570" cellpadding="0" cellspacing="0">
+                <tr>
+                    <td class="content-cell" align="center">
+                        This is some footer copy!
+                    </td>
+                </tr>
+            </table>
+        </td>
+    </tr>
 @endsection

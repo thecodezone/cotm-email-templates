@@ -128,5 +128,19 @@
         text-align: center;
     }
 
+    .header {
+        text-align: center;
+    }
+
+    .subcopy {
+        font-size: .9em;
+        border-top: solid 1px {{ $darker }};
+        margin-top: {{ $spacingY }};
+    }
+
+    .subcopy tr td {
+        padding-top: {{ $spacingY }};
+        color: {{ $black }};
+    }
 
 </style>

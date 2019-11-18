@@ -235,14 +235,14 @@
             padding-top:9px;
             padding-bottom:9px;
         }
-        #templateFooter .mcnTextContent,#templateFooter .mcnTextContent p{
+        #templateFooter .content-cell, #templateFooter .mcnTextContent,#templateFooter .mcnTextContent p{
             color:#656565;
             font-family:'Source Sans Pro', 'Helvetica Neue', Helvetica, Arial, sans-serif;
             font-size:12px;
             line-height:150%;
             text-align:center;
         }
-        #templateFooter .mcnTextContent a,#templateFooter .mcnTextContent p a{
+        #templateFooter .content-cell a, #templateFooter .mcnTextContent a, #templateFooter .mcnTextContent p a {
             color:#656565;
             font-weight:normal;
             text-decoration:underline;
