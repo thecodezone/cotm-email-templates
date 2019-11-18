@@ -19,7 +19,9 @@
         }
     },
     "require-dev": {
-        "samdark/sitemap": "^2.2"
+        "samdark/sitemap": "^2.2",
+        "tightenco/jigsaw": "dev-master#8ac8e65a32da04b62b38788c347928ee59a5686d",
+        "illuminate/mail": "v5.8.35"
     },
     "repositories": [
         {
@@ -33,9 +35,5 @@
                 "Cotm\\EmailTemplates\\EmailTemplatesServiceProvider"
             ]
         }
-    },
-    "require": {
-        "tightenco/jigsaw": "dev-master#8ac8e65a32da04b62b38788c347928ee59a5686d",
-        "illuminate/mail": "v5.8.35"
     }
 }
