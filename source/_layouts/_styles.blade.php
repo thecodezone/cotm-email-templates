@@ -139,7 +139,7 @@
     }
 
     .subcopy tr td {
-        padding-top: {{ $spacingY }};
+        padding-top: {{ $gutterY }};
         color: {{ $black }};
     }
 
