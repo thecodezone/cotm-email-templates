@@ -26,7 +26,7 @@ or by extending them:
 ```blade
     @extends('email:templates::cotm')
     
-    @section('body')
+    @section('content')
         @component('email:components::section')
             <h1>Important</h1>
             <p>When extending, be sure to wrap your content in one or more sections.</p>
@@ -70,7 +70,7 @@ Use to visually separate email sections from each other. Section background colo
 ```blade
     @extends('email:templates::cotm')
     
-    @section('body')
+    @section('content')
         @component('email:components::section')
             <h2>Section 1</h2>
             <p>The section makes sure the content isn't nested against the edge of the container.</p>
