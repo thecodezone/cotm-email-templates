@@ -232,14 +232,14 @@
             padding-top:9px;
             padding-bottom:9px;
         }
-        #templateFooter .mcnTextContent,#templateFooter .mcnTextContent p{
+        #templateFooter .content-cell, #templateFooter .mcnTextContent,#templateFooter .mcnTextContent p{
             color:#656565;
             font-family:'Source Sans Pro', 'Helvetica Neue', Helvetica, Arial, sans-serif;
             font-size:12px;
             line-height:150%;
             text-align:center;
         }
-        #templateFooter .mcnTextContent a,#templateFooter .mcnTextContent p a{
+        #templateFooter .content-cell a, #templateFooter .mcnTextContent a, #templateFooter .mcnTextContent p a {
             color:#656565;
             font-weight:normal;
             text-decoration:underline;
@@ -522,6 +522,20 @@
         text-align: center;
     }
 
+    .header {
+        text-align: center;
+    }
+
+    .subcopy {
+        font-size: .9em;
+        border-top: solid 1px #EEEEEE;
+        margin-top: 30px;
+    }
+
+    .subcopy tr td {
+        padding-top: 6px;
+        color: #000;
+    }
 
 </style>    
 </head>
@@ -549,8 +563,14 @@
                                             <tbody><tr>
                                                 <td class="mcnImageContent" valign="top" style="padding-right: 9px; padding-left: 9px; padding-top: 9px; padding-bottom: 9px; text-align:center;">
 
-                                                                                                            <img align="center" alt="" src="https://gallery.mailchimp.com/9789e9744a413a4719ac216a4/images/d59e0864-9ec9-459e-a4bc-626e3c5a36e7.png" width="200" style="max-width:400px; padding-bottom: 0; display: inline !important; vertical-align: bottom;" class="mcnRetinaImage">
-                                                    
+                                                        <tr>
+        <td class="header">
+            <a href="http://www.google.com/" style="display: inline-block;">
+                <img src="https://laravel.com/img/notification-logo.png" class="logo" alt="Laravel Logo">
+            </a>
+        </td>
+    </tr>
+
                                                 </td>
                                             </tr>
                                             </tbody></table>
@@ -645,6 +665,13 @@
 </tbody>
 </table>
         </div>
+        <table class="subcopy" width="100%" cellpadding="0" cellspacing="0" role="presentation">
+            <tr>
+                <td>
+                    This is some subcopy! isn't it interesting!
+                </td>
+            </tr>
+        </table>
 
         </td>
     </tr>
@@ -863,7 +890,17 @@
                                             <tbody><tr>
 
                                                 <td valign="top" class="mcnTextContent" style="padding-top:0; padding-right:18px; padding-bottom:9px; padding-left:18px;">
-                                                        *|legal|*
+                                                        <tr>
+        <td>
+            <table class="footer" align="center" width="570" cellpadding="0" cellspacing="0">
+                <tr>
+                    <td class="content-cell" align="center">
+                        This is some footer copy!
+                    </td>
+                </tr>
+            </table>
+        </td>
+    </tr>
                                                 </td>
                                             </tr>
                                             </tbody></table>
