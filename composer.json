@@ -20,16 +20,10 @@
     },
     "require-dev": {
         "samdark/sitemap": "^2.2",
-        "tightenco/jigsaw": "dev-master#8ac8e65a32da04b62b38788c347928ee59a5686d",
+        "tightenco/jigsaw": "dev-master#98cef545b1f0cbc1afd166efba2266fa91cb85da",
         "illuminate/mail": "v5.8.35"
     },
-    "repositories": [
-        {
-            "type": "vcs",
-            "url": "https://github.com/incraigulous/jigsaw"
-        }
-    ],
-    "extra": {
+        "extra": {
         "laravel": {
             "providers": [
                 "Cotm\\EmailTemplates\\EmailTemplatesServiceProvider"
