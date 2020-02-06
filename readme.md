@@ -47,8 +47,9 @@ or by using them as a component:
  
 #### Available Templates
  
-- `email:templates::cotm`
-- `email:templates::lcs`
+- `email:templates::cotm`: COTM branded template
+- `email:templates::generic`: COTM unbranded template
+- `email:templates::lcs`: LCS branded template
 
 #### Using outside of Laravel
 
