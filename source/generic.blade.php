@@ -1,8 +1,4 @@
-@extends('_layouts.cotm')
-
-@section('logo')
-    <h1 style="text-align: center; margin-bottom: 10px;">Church on the Move</h1>
-@endsection
+@extends('_layouts.generic')
 
 @section('content')
     @component('email:components::section')

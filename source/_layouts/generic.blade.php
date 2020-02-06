@@ -288,21 +288,21 @@
             text-decoration: underline;
         }
 
-        @media  only screen and (min-width: 768px) {
+        @media only screen and (min-width: 768px) {
             .templateContainer {
                 width: 600px !important;
             }
 
         }
 
-        @media  only screen and (max-width: 480px) {
+        @media only screen and (max-width: 480px) {
             body, table, td, p, a, li, blockquote {
                 -webkit-text-size-adjust: none !important;
             }
 
         }
 
-        @media  only screen and (max-width: 480px) {
+        @media only screen and (max-width: 480px) {
             body {
                 width: 100% !important;
                 min-width: 100% !important;
@@ -310,28 +310,28 @@
 
         }
 
-        @media  only screen and (max-width: 480px) {
+        @media only screen and (max-width: 480px) {
             #bodyCell {
                 padding-top: 10px !important;
             }
 
         }
 
-        @media  only screen and (max-width: 480px) {
+        @media only screen and (max-width: 480px) {
             .mcnRetinaImage {
                 max-width: 100% !important;
             }
 
         }
 
-        @media  only screen and (max-width: 480px) {
+        @media only screen and (max-width: 480px) {
             .mcnImage {
                 width: 100% !important;
             }
 
         }
 
-        @media  only screen and (max-width: 480px) {
+        @media only screen and (max-width: 480px) {
             .mcnCartContainer, .mcnCaptionTopContent, .mcnRecContentContainer, .mcnCaptionBottomContent, .mcnTextContentContainer, .mcnBoxedTextContentContainer, .mcnImageGroupContentContainer, .mcnCaptionLeftTextContentContainer, .mcnCaptionRightTextContentContainer, .mcnCaptionLeftImageContentContainer, .mcnCaptionRightImageContentContainer, .mcnImageCardLeftTextContentContainer, .mcnImageCardRightTextContentContainer, .mcnImageCardLeftImageContentContainer, .mcnImageCardRightImageContentContainer {
                 max-width: 100% !important;
                 width: 100% !important;
@@ -339,42 +339,42 @@
 
         }
 
-        @media  only screen and (max-width: 480px) {
+        @media only screen and (max-width: 480px) {
             .mcnBoxedTextContentContainer {
                 min-width: 100% !important;
             }
 
         }
 
-        @media  only screen and (max-width: 480px) {
+        @media only screen and (max-width: 480px) {
             .mcnImageGroupContent {
                 padding: 9px !important;
             }
 
         }
 
-        @media  only screen and (max-width: 480px) {
+        @media only screen and (max-width: 480px) {
             .mcnCaptionLeftContentOuter .mcnTextContent, .mcnCaptionRightContentOuter .mcnTextContent {
                 padding-top: 9px !important;
             }
 
         }
 
-        @media  only screen and (max-width: 480px) {
+        @media only screen and (max-width: 480px) {
             .mcnImageCardTopImageContent, .mcnCaptionBottomContent:last-child .mcnCaptionBottomImageContent, .mcnCaptionBlockInner .mcnCaptionTopContent:last-child .mcnTextContent {
                 padding-top: 18px !important;
             }
 
         }
 
-        @media  only screen and (max-width: 480px) {
+        @media only screen and (max-width: 480px) {
             .mcnImageCardBottomImageContent {
                 padding-bottom: 9px !important;
             }
 
         }
 
-        @media  only screen and (max-width: 480px) {
+        @media only screen and (max-width: 480px) {
             .mcnImageGroupBlockInner {
                 padding-top: 0 !important;
                 padding-bottom: 0 !important;
@@ -382,7 +382,7 @@
 
         }
 
-        @media  only screen and (max-width: 480px) {
+        @media only screen and (max-width: 480px) {
             .mcnImageGroupBlockOuter {
                 padding-top: 9px !important;
                 padding-bottom: 9px !important;
@@ -390,7 +390,7 @@
 
         }
 
-        @media  only screen and (max-width: 480px) {
+        @media only screen and (max-width: 480px) {
             .mcnImageCardLeftImageContent, .mcnImageCardRightImageContent {
                 padding-right: 18px !important;
                 padding-bottom: 0 !important;
@@ -399,7 +399,7 @@
 
         }
 
-        @media  only screen and (max-width: 480px) {
+        @media only screen and (max-width: 480px) {
             .mcpreview-image-uploader {
                 display: none !important;
                 width: 100% !important;
@@ -407,7 +407,7 @@
 
         }
 
-        @media  only screen and (max-width: 480px) {
+        @media only screen and (max-width: 480px) {
 
             h1 {
                 font-size: 22px !important;
@@ -416,7 +416,7 @@
 
         }
 
-        @media  only screen and (max-width: 480px) {
+        @media only screen and (max-width: 480px) {
 
             h2 {
                 font-size: 20px !important;
@@ -425,7 +425,7 @@
 
         }
 
-        @media  only screen and (max-width: 480px) {
+        @media only screen and (max-width: 480px) {
 
             h3 {
                 font-size: 18px !important;
@@ -434,7 +434,7 @@
 
         }
 
-        @media  only screen and (max-width: 480px) {
+        @media only screen and (max-width: 480px) {
 
             h4 {
                 font-size: 16px !important;
@@ -443,7 +443,7 @@
 
         }
 
-        @media  only screen and (max-width: 480px) {
+        @media only screen and (max-width: 480px) {
 
             .mcnBoxedTextContentContainer .mcnTextContent, .mcnBoxedTextContentContainer .mcnTextContent p {
                 font-size: 14px !important;
@@ -452,7 +452,7 @@
 
         }
 
-        @media  only screen and (max-width: 480px) {
+        @media only screen and (max-width: 480px) {
 
             #templatePreheader {
                 display: block !important;
@@ -460,7 +460,7 @@
 
         }
 
-        @media  only screen and (max-width: 480px) {
+        @media only screen and (max-width: 480px) {
 
             #templatePreheader .mcnTextContent, #templatePreheader .mcnTextContent p {
                 font-size: 14px !important;
@@ -469,7 +469,7 @@
 
         }
 
-        @media  only screen and (max-width: 480px) {
+        @media only screen and (max-width: 480px) {
 
             #templateHeader .mcnTextContent, #templateHeader .mcnTextContent p {
                 font-size: 16px !important;
@@ -478,7 +478,7 @@
 
         }
 
-        @media  only screen and (max-width: 480px) {
+        @media only screen and (max-width: 480px) {
 
             #templateBody .mcnTextContent, #templateBody .mcnTextContent p {
                 font-size: 16px !important;
@@ -487,7 +487,7 @@
 
         }
 
-        @media  only screen and (max-width: 480px) {
+        @media only screen and (max-width: 480px) {
 
             #templateFooter .mcnTextContent, #templateFooter .mcnTextContent p {
                 font-size: 14px !important;
@@ -497,139 +497,9 @@
         }
     </style>
 
-    <style type="text/css">
-    .image {
-        margin-bottom: 18px;
-    }
+    @include('email:templates::_styles')
+    @stack('styles')
 
-    .image > img {
-        width: 100%;
-        max-width: 100%;
-        height: auto;
-        margin-bottom: 0px;
-        display: block;
-    }
-
-    .image.withBorder {
-        border: 1px solid #EEEEEE;
-    }
-
-    .image.stretched {
-        margin-left: -30px;
-        margin-right: -30px;
-    }
-
-    .image.stretched:first-child {
-        margin-top: -30px;
-    }
-
-    .image.stretched:last-child {
-        margin-bottom: -30px;
-    }
-
-    .panel-content,
-    blockquote {
-        margin-top: 30px;
-        margin-bottom: 30px;
-        background-color: #f5f5f5;
-        padding: 18px;
-        border-bottom: solid 5px #EEEEEE;
-    }
-
-    blockquote {
-        font-style: italic;
-        font-size: 1.3em;
-    }
-
-    blockquote footer {
-        font-size: .7em;
-        font-weight: bold;
-        margin-top: 18px;
-        font-style: initial;
-    }
-
-    table.section:nth-child(odd) {
-        background-color: #fff;
-    }
-
-    table.section:nth-child(even) {
-        background-color: #f5f5f5;
-    }
-
-    table.section:nth-child(even) blockquote {
-        background-color: #fff;
-    }
-
-    .table table,
-    table.table {
-        width: 100%;
-        margin: 25px 0;
-    }
-
-    .table table th,
-    table.table th {
-        background-color: #000;
-        color: #fff;
-    }
-
-    .table table tr,
-    table.table tr {
-        border-bottom: solid 1px #EEEEEE;
-    }
-
-    .table table tfoot td,
-    table.table tfoot td {
-        background-color: #EEEEEE;
-        font-style: italic;
-        font-weight: bold;
-    }
-
-    .table table tr:nth-child(even),
-    table.table tr:nth-child(even) {
-        background-color: #fff;
-    }
-
-    .table table tr:nth-child(odd),
-    table.table tr:nth-child(odd) {
-        background-color: #f5f5f5;
-    }
-
-    .table table th,
-    .table table td,
-    table.table th,
-    table.table td {
-        padding: 10px;
-    }
-
-    .mcnButton,
-    .btn {
-        display: inline-block;
-        padding: 6px 10px;
-        margin: 6px 10px;
-        color: #EC0843 !important;
-        background-color: transparent;
-        text-transform: uppercase;
-        text-decoration: none !important;
-        border: solid 3px #EC0843;
-        text-align: center;
-    }
-
-    .header {
-        text-align: center;
-    }
-
-    .subcopy {
-        font-size: .9em;
-        border-top: solid 1px #EEEEEE;
-        margin-top: 30px;
-    }
-
-    .subcopy tr td {
-        padding-top: 6px;
-        color: #000;
-    }
-
-</style>    
 </head>
 <body>
 <center>
@@ -693,8 +563,10 @@
                                                     valign="top"
                                                     style="padding-right: 9px; padding-left: 9px; padding-top: 9px; padding-bottom: 9px; text-align:center;">
 
-                                                                                                            <h1 style="text-align: center; margin-bottom: 10px;">Church on the Move</h1>
-                                                    
+                                                    @section('logo')
+                                                        <h1 style="text-align: center; margin-bottom: 10px;">Church on the Move</h1>
+                                                    @show
+
                                                 </td>
                                             </tr>
                                             </tbody>
@@ -745,17 +617,14 @@
 
                                                 <td valign="top"
                                                     class="mcnTextContent">
-                                                        <table align="left" border="0" cellpadding="0" cellspacing="0" style="max-width:100%; min-width:100%;" width="100%" class="section content">
-    <tbody>
-    <tr>
-        <td valign="top" class="mcnTextContent" style="padding-top: 30px; padding-right: 30px; padding-bottom: 30px; padding-left: 30px;">
-
-            *|content|*
-
-        </td>
-    </tr>
-    </tbody>
-</table>                                                </td>
+                                                    @section('content')
+                                                        @if(isset($slot))
+                                                            @include("email:partials::content", ['content' => $slot])
+                                                        @elseif(isset($content))
+                                                            @include("email:partials::content", ['content' => $content])
+                                                        @endif
+                                                    @show
+                                                </td>
                                             </tr>
                                             </tbody>
                                         </table>
@@ -1170,7 +1039,15 @@
                                                     class="mcnTextContent"
                                                     style="padding-top:0; padding-right:18px; padding-bottom:9px; padding-left:18px;">
 
-                                                        *|legal|*
+                                                    @section('legal')
+                                                        @if(isset($legal))
+                                                            {!! $legal !!}
+                                                        @else
+                                                            <em>1003 N 129th E Ave, Tulsa, OK 74116</em><br/>
+                                                            <em>Copyright © Church on the Move, All rights
+                                                                reserved.</em><br>
+                                                        @endif
+                                                    @show
                                                 </td>
                                             </tr>
                                             </tbody>
