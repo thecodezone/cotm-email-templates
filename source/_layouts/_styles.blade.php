@@ -133,13 +133,17 @@
     }
 
     .subcopy {
-        font-size: .9em;
         border-top: solid 1px {{ $darker }};
         margin-top: {{ $gutterY }};
     }
 
+    .subcopy,
+    .subcopy p {
+        font-size: .8em !important;
+    }
+
     .subcopy tr td {
-        padding-top: {{ $spacingY }};
+        padding-top: 20px;
         color: {{ $black }};
     }
 
