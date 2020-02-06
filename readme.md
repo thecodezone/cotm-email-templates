@@ -59,6 +59,7 @@ HTML file paths:
 
 - `/build_production/cotm/index.html`
 - `/build_production/lcs/index.html`
+- `/build_production/generic/index.html`
 
 ### Components
 
