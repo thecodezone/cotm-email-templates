@@ -567,14 +567,8 @@
                                             <tbody><tr>
                                                 <td class="mcnImageContent" valign="top" style="padding-right: 9px; padding-left: 9px; padding-top: 9px; padding-bottom: 9px; text-align:center;">
 
-                                                        <tr>
-        <td class="header">
-            <a href="http://www.google.com/" style="display: inline-block;">
-                <img src="https://laravel.com/img/notification-logo.png" class="logo" alt="Laravel Logo">
-            </a>
-        </td>
-    </tr>
-
+                                                                                                            <img align="center" alt="" src="https://gallery.mailchimp.com/9789e9744a413a4719ac216a4/images/d59e0864-9ec9-459e-a4bc-626e3c5a36e7.png" width="200" style="max-width:400px; padding-bottom: 0; display: inline !important; vertical-align: bottom;" class="mcnRetinaImage">
+                                                    
                                                 </td>
                                             </tr>
                                             </tbody></table>
@@ -605,77 +599,7 @@
     <tr>
         <td valign="top" class="mcnTextContent" style="padding-top: 30px; padding-right: 30px; padding-bottom: 30px; padding-left: 30px;">
 
-            <p>
-            Lets see how much space this takes up!
-        </p>
-        <table class="action" align="center" width="100%" cellpadding="0" cellspacing="0">
-            <tr>
-                <td align="center">
-                    <table width="100%" border="0" cellpadding="0" cellspacing="0">
-                        <tr>
-                            <td align="center">
-                                <table border="0" cellpadding="0" cellspacing="0">
-                                    <tr>
-                                        <td>
-                                            <a href="http://www.google.com/" class="mcnButton" target="_blank">Apply Now!</a>
-                                        </td>
-                                    </tr>
-                                </table>
-                            </td>
-                        </tr>
-                    </table>
-                </td>
-            </tr>
-        </table>
-        <p>
-            Lets see how much space this takes up!
-        </p>
-        <table class="panel" width="100%" cellpadding="0" cellspacing="0">
-            <tr>
-                <td class="panel-content">
-                    <table width="100%" cellpadding="0" cellspacing="0">
-                        <tr>
-                            <td class="panel-item">
-                                This will be some content that will go inside the panel. Let's see how much space it really takes up!
-                            </td>
-                        </tr>
-                    </table>
-                </td>
-            </tr>
-        </table>
-        <p>
-            Lets see how much space this takes up!
-        </p>
-        <div class="table">
-            <table>
-<thead>
-<tr>
-<th>Laravel</th>
-<th style="text-align: center;">Table</th>
-<th style="text-align: right;">Example</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Col 2 is</td>
-<td style="text-align: center;">Centered</td>
-<td style="text-align: right;">$10</td>
-</tr>
-<tr>
-<td>Col 3 is</td>
-<td style="text-align: center;">Right-Aligned</td>
-<td style="text-align: right;">$20</td>
-</tr>
-</tbody>
-</table>
-        </div>
-        <table class="subcopy" width="100%" cellpadding="0" cellspacing="0" role="presentation">
-            <tr>
-                <td>
-                    This is some subcopy! isn't it interesting!
-                </td>
-            </tr>
-        </table>
+            {% block body %}{% endblock %}
 
         </td>
     </tr>
@@ -894,17 +818,9 @@
                                             <tbody><tr>
 
                                                 <td valign="top" class="mcnTextContent" style="padding-top:0; padding-right:18px; padding-bottom:9px; padding-left:18px;">
-                                                        <tr>
-        <td>
-            <table class="footer" align="center" width="570" cellpadding="0" cellspacing="0">
-                <tr>
-                    <td class="content-cell" align="center">
-                        This is some footer copy!
-                    </td>
-                </tr>
-            </table>
-        </td>
-    </tr>
+                                                        
+        {% block legal %}{% endblock %}
+    
                                                 </td>
                                             </tr>
                                             </tbody></table>

@@ -53,13 +53,27 @@ or by using them as a component:
 
 #### Using outside of Laravel
 
-HTML files are provided for use outside of laravel. HTML templates contain `*|content|*` and `*|legal|*` merge tags. These tags can be replaced with your content. 
+HTML and twig files are provided for use outside of laravel. 
+
+##### HTML
+
+HTML templates contain `*|content|*` and `*|legal|*` merge tags. These tags can be replaced with your content. 
 
 HTML file paths: 
 
 - `/build_production/cotm/index.html`
 - `/build_production/lcs/index.html`
 - `/build_production/generic/index.html`
+
+##### Twig
+
+The templates below can be extended. Twig templates contain `content` and `legal` blocks.
+
+Twig file paths: 
+
+- `/build_production/cotm-twig/index.html`
+- `/build_production/lcs-twig/index.html`
+- `/build_production/generic-twig/index.html`
 
 ### Components
 
