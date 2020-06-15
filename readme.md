@@ -50,6 +50,7 @@ or by using them as a component:
 - `email:templates::cotm`: COTM branded template
 - `email:templates::generic`: COTM unbranded template
 - `email:templates::lcs`: LCS branded template
+- `email:templates::lcs-endowment`: LCS Endowment branded template
 
 #### Using outside of Laravel
 
@@ -63,6 +64,7 @@ HTML file paths:
 
 - `/build_production/cotm/index.html`
 - `/build_production/lcs/index.html`
+- `/build_production/lcs-endowment/index.html`
 - `/build_production/generic/index.html`
 
 ##### Twig
@@ -73,6 +75,7 @@ Twig file paths:
 
 - `/build_production/cotm-twig/index.html`
 - `/build_production/lcs-twig/index.html`
+- `/build_production/lcs-endowment-twig/index.html`
 - `/build_production/generic-twig/index.html`
 
 ### Components

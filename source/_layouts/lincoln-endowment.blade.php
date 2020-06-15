@@ -1,3 +1,6 @@
+<?php
+    $brand = '#c5b682';
+?>
 <!doctype html>
 <html xmlns="http://www.w3.org/1999/xhtml" xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office">
 <head>
@@ -227,7 +230,7 @@
             background-repeat:no-repeat;
             background-position:center;
             background-size:cover;
-            border-top:5px solid #c5b682;
+            border-top:5px solid {{ $brand }};
             border-bottom:0;
             padding-top:9px;
             padding-bottom:9px;
@@ -244,153 +247,153 @@
             font-weight:normal;
             text-decoration:underline;
         }
-        @media  only screen and (min-width:768px){
+        @media only screen and (min-width:768px){
             .templateContainer{
                 width:600px !important;
             }
 
-        }	@media  only screen and (max-width: 480px){
+        }	@media only screen and (max-width: 480px){
             body,table,td,p,a,li,blockquote{
                 -webkit-text-size-adjust:none !important;
             }
 
-        }	@media  only screen and (max-width: 480px){
+        }	@media only screen and (max-width: 480px){
             body{
                 width:100% !important;
                 min-width:100% !important;
             }
 
-        }	@media  only screen and (max-width: 480px){
+        }	@media only screen and (max-width: 480px){
             #bodyCell{
                 padding-top:10px !important;
             }
 
-        }	@media  only screen and (max-width: 480px){
+        }	@media only screen and (max-width: 480px){
             .mcnRetinaImage{
                 max-width:100% !important;
             }
 
-        }	@media  only screen and (max-width: 480px){
+        }	@media only screen and (max-width: 480px){
             .mcnImage{
                 width:100% !important;
             }
 
-        }	@media  only screen and (max-width: 480px){
+        }	@media only screen and (max-width: 480px){
             .mcnCartContainer,.mcnCaptionTopContent,.mcnRecContentContainer,.mcnCaptionBottomContent,.mcnTextContentContainer,.mcnBoxedTextContentContainer,.mcnImageGroupContentContainer,.mcnCaptionLeftTextContentContainer,.mcnCaptionRightTextContentContainer,.mcnCaptionLeftImageContentContainer,.mcnCaptionRightImageContentContainer,.mcnImageCardLeftTextContentContainer,.mcnImageCardRightTextContentContainer,.mcnImageCardLeftImageContentContainer,.mcnImageCardRightImageContentContainer{
                 max-width:100% !important;
                 width:100% !important;
             }
 
-        }	@media  only screen and (max-width: 480px){
+        }	@media only screen and (max-width: 480px){
             .mcnBoxedTextContentContainer{
                 min-width:100% !important;
             }
 
-        }	@media  only screen and (max-width: 480px){
+        }	@media only screen and (max-width: 480px){
             .mcnImageGroupContent{
                 padding:9px !important;
             }
 
-        }	@media  only screen and (max-width: 480px){
+        }	@media only screen and (max-width: 480px){
             .mcnCaptionLeftContentOuter .mcnTextContent,.mcnCaptionRightContentOuter .mcnTextContent{
                 padding-top:9px !important;
             }
 
-        }	@media  only screen and (max-width: 480px){
+        }	@media only screen and (max-width: 480px){
             .mcnImageCardTopImageContent,.mcnCaptionBottomContent:last-child .mcnCaptionBottomImageContent,.mcnCaptionBlockInner .mcnCaptionTopContent:last-child .mcnTextContent{
                 padding-top:18px !important;
             }
 
-        }	@media  only screen and (max-width: 480px){
+        }	@media only screen and (max-width: 480px){
             .mcnImageCardBottomImageContent{
                 padding-bottom:9px !important;
             }
 
-        }	@media  only screen and (max-width: 480px){
+        }	@media only screen and (max-width: 480px){
             .mcnImageGroupBlockInner{
                 padding-top:0 !important;
                 padding-bottom:0 !important;
             }
 
-        }	@media  only screen and (max-width: 480px){
+        }	@media only screen and (max-width: 480px){
             .mcnImageGroupBlockOuter{
                 padding-top:9px !important;
                 padding-bottom:9px !important;
             }
 
-        }	@media  only screen and (max-width: 480px){
+        }	@media only screen and (max-width: 480px){
             .mcnImageCardLeftImageContent,.mcnImageCardRightImageContent{
                 padding-right:18px !important;
                 padding-bottom:0 !important;
                 padding-left:18px !important;
             }
 
-        }	@media  only screen and (max-width: 480px){
+        }	@media only screen and (max-width: 480px){
             .mcpreview-image-uploader{
                 display:none !important;
                 width:100% !important;
             }
 
-        }	@media  only screen and (max-width: 480px){
+        }	@media only screen and (max-width: 480px){
             h1{
                 font-size:22px !important;
                 line-height:125% !important;
             }
 
-        }	@media  only screen and (max-width: 480px){
+        }	@media only screen and (max-width: 480px){
             h2{
                 font-size:20px !important;
                 line-height:125% !important;
             }
 
-        }	@media  only screen and (max-width: 480px){
+        }	@media only screen and (max-width: 480px){
             h3{
                 font-size:18px !important;
                 line-height:125% !important;
             }
 
-        }	@media  only screen and (max-width: 480px){
+        }	@media only screen and (max-width: 480px){
             h4{
                 font-size:16px !important;
                 line-height:150% !important;
             }
 
-        }	@media  only screen and (max-width: 480px){
+        }	@media only screen and (max-width: 480px){
             .mcnBoxedTextContentContainer .mcnTextContent,.mcnBoxedTextContentContainer .mcnTextContent p{
                 font-size:14px !important;
                 line-height:150% !important;
             }
 
-        }	@media  only screen and (max-width: 480px){
+        }	@media only screen and (max-width: 480px){
             #templatePreheader{
                 display:block !important;
             }
 
-        }	@media  only screen and (max-width: 480px){
+        }	@media only screen and (max-width: 480px){
             #templatePreheader .mcnTextContent,#templatePreheader .mcnTextContent p{
                 font-size:14px !important;
                 line-height:150% !important;
             }
 
-        }	@media  only screen and (max-width: 480px){
+        }	@media only screen and (max-width: 480px){
             #templateHeader .mcnTextContent,#templateHeader .mcnTextContent p{
                 font-size:16px !important;
                 line-height:150% !important;
             }
 
-        }	@media  only screen and (max-width: 480px){
+        }	@media only screen and (max-width: 480px){
             #templateBody .mcnTextContent,#templateBody .mcnTextContent p{
                 font-size:16px !important;
                 line-height:150% !important;
             }
 
-        }	@media  only screen and (max-width: 480px){
+        }	@media only screen and (max-width: 480px){
             #templateFooter .mcnTextContent,#templateFooter .mcnTextContent p{
                 font-size:14px !important;
                 line-height:150% !important;
             }
 
-        }	@media  only screen and (max-width: 480px){
+        }	@media only screen and (max-width: 480px){
             .table.table tr {
                 display: block;
                 margin-bottom: 25px;
@@ -405,143 +408,9 @@
         }
     </style>
 
-    <style type="text/css">
-    .image {
-        margin-bottom: 18px;
-    }
+    @include('email:templates::_styles')
+    @stack('styles')
 
-    .image > img {
-        width: 100%;
-        max-width: 100%;
-        height: auto;
-        margin-bottom: 0px;
-        display: block;
-    }
-
-    .image.withBorder {
-        border: 1px solid #EEEEEE;
-    }
-
-    .image.stretched {
-        margin-left: -30px;
-        margin-right: -30px;
-    }
-
-    .image.stretched:first-child {
-        margin-top: -30px;
-    }
-
-    .image.stretched:last-child {
-        margin-bottom: -30px;
-    }
-
-    .panel-content,
-    blockquote {
-        margin-top: 30px;
-        margin-bottom: 30px;
-        background-color: #f5f5f5;
-        padding: 18px;
-        border-bottom: solid 5px #EEEEEE;
-    }
-
-    blockquote {
-        font-style: italic;
-        font-size: 1.3em;
-    }
-
-    blockquote footer {
-        font-size: .7em;
-        font-weight: bold;
-        margin-top: 18px;
-        font-style: initial;
-    }
-
-    table.section:nth-child(odd) {
-        background-color: #fff;
-    }
-
-    table.section:nth-child(even) {
-        background-color: #f5f5f5;
-    }
-
-    table.section:nth-child(even) blockquote {
-        background-color: #fff;
-    }
-
-    .table table,
-    table.table {
-        width: 100%;
-        margin: 25px 0;
-    }
-
-    .table table th,
-    table.table th {
-        background-color: #000;
-        color: #fff;
-    }
-
-    .table table tr,
-    table.table tr {
-        border-bottom: solid 1px #EEEEEE;
-    }
-
-    .table table tfoot td,
-    table.table tfoot td {
-        background-color: #EEEEEE;
-        font-style: italic;
-        font-weight: bold;
-    }
-
-    .table table tr:nth-child(even),
-    table.table tr:nth-child(even) {
-        background-color: #fff;
-    }
-
-    .table table tr:nth-child(odd),
-    table.table tr:nth-child(odd) {
-        background-color: #f5f5f5;
-    }
-
-    .table table th,
-    .table table td,
-    table.table th,
-    table.table td {
-        padding: 10px;
-    }
-
-    .mcnButton,
-    .btn {
-        display: inline-block;
-        padding: 6px 10px;
-        margin: 6px 10px;
-        color: #c5b682 !important;
-        background-color: transparent;
-        text-transform: uppercase;
-        text-decoration: none !important;
-        border: solid 3px #c5b682;
-        text-align: center;
-    }
-
-    .header {
-        text-align: center;
-    }
-
-    .subcopy {
-        border-top: solid 1px #EEEEEE;
-        margin-top: 30px;
-    }
-
-    .subcopy,
-    .subcopy p {
-        font-size: .8em !important;
-    }
-
-    .subcopy tr td {
-        padding-top: 20px;
-        color: #000;
-    }
-
-</style>    
 </head>
 <body>
 <center>
@@ -565,10 +434,15 @@
                                     <td valign="top" class="mcnImageBlockInner">
                                         <table align="left" width="100%" border="0" cellpadding="0" cellspacing="0" class="mcnImageContentContainer" style="min-width:100%;">
                                             <tbody><tr>
-                                                <td class="mcnImageContent" valign="top" style="padding-right: 9px; padding-left: 9px; padding-top: 9px; padding-bottom: 9px; text-align:center;">
+                                                <td class="mcnImageContent" valign="top" style="padding-bottom: 10px; text-align:center;">
 
-                                                                                                            <img align="center" alt="" src="https://gallery.mailchimp.com/9789e9744a413a4719ac216a4/images/d59e0864-9ec9-459e-a4bc-626e3c5a36e7.png" width="200" style="max-width:400px; padding-bottom: 0; display: inline !important; vertical-align: bottom;" class="mcnRetinaImage">
-                                                    
+                                                    @section('logo')
+                                                        <img align="center" alt="" src="https://s3.us-east-1.amazonaws.com/email.churchonthemove.com/templates/endowment/hero.jpg"
+                                                             width="600"
+                                                             style="max-width:600px; padding-bottom: 0; display: inline !important; vertical-align: bottom; border: solid 10px white; box-shadow: 5px 6px 5px -2px rgba(0,0,0,0.15)"
+                                                             class="mcnRetinaImage">
+                                                    @show
+
                                                 </td>
                                             </tr>
                                             </tbody></table>
@@ -594,17 +468,14 @@
                                             <tbody><tr>
 
                                                 <td valign="top" class="mcnTextContent">
-                                                        <table align="left" border="0" cellpadding="0" cellspacing="0" style="max-width:100%; min-width:100%;" width="100%" class="section content">
-    <tbody>
-    <tr>
-        <td valign="top" class="mcnTextContent" style="padding-top: 30px; padding-right: 30px; padding-bottom: 30px; padding-left: 30px;">
-
-            {% block content %}{% endblock %}
-
-        </td>
-    </tr>
-    </tbody>
-</table>                                                </td>
+                                                    @section('content')
+                                                        @if(isset($slot))
+                                                            @include("email:partials::content", ['content' => $slot])
+                                                        @elseif(isset($content))
+                                                            @include("email:partials::content", ['content' => $content])
+                                                        @endif
+                                                    @show
+                                                </td>
                                             </tr>
                                             </tbody></table>
                                         <!--[if mso]>
@@ -818,9 +689,14 @@
                                             <tbody><tr>
 
                                                 <td valign="top" class="mcnTextContent" style="padding-top:0; padding-right:18px; padding-bottom:9px; padding-left:18px;">
-                                                        
-        {% block legal %}{% endblock %}
-    
+                                                    @section("legal")
+                                                        @if(isset($legal))
+                                                            {!! $legal !!}
+                                                        @else
+                                                            <em>1003 N 129th E Ave, Tulsa, OK 74116</em><br />
+                                                            <em>Copyright © Lincoln Christian School, All rights reserved.</em><br>
+                                                        @endif
+                                                    @show
                                                 </td>
                                             </tr>
                                             </tbody></table>
