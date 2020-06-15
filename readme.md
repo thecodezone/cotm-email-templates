@@ -92,7 +92,7 @@ Or add the following to a migration:
   Craft::$app->plugins->installPlugin('email-templates');
 ```
 
-After the plugin is installed, the templates will be available under the `email:templates` namespace:
+After the plugin is installed, the templates will be available under the `email:templates` namespace. You may set Craft's `HTML Email Template` field to one of the following values in order make use of one of the templates in Craft's confirmation emails. 
 
 - `email:templates/cotm`
 - `email:templates/lcs`
