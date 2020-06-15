@@ -73,10 +73,31 @@ The templates below can be extended. Twig templates contain `content` and `legal
 
 Twig file paths: 
 
-- `/build_production/cotm-twig/index.html`
-- `/build_production/lcs-twig/index.html`
-- `/build_production/lcs-endowment-twig/index.html`
-- `/build_production/generic-twig/index.html`
+- `/build_production/twig/cotm/index.html`
+- `/build_production/twig/lcs/index.html`
+- `/build_production/twig/lcs-endowment/index.html`
+- `/build_production/twig/generic/index.html`
+
+##### Craft
+
+Templates are also available as a Craft plugin. After installing the package as a composer dependency, install the plugin via the admin, or run the following:
+
+```bash
+ ./Craft install/plugin email-templates
+```
+
+Or add the following to a migration: 
+
+```php
+  Craft::$app->plugins->installPlugin('email-templates');
+```
+
+After the plugin is installed, the templates will be available under the `email:templates` namespace:
+
+- `email:templates/cotm`
+- `email:templates/lcs`
+- `email:templates/lcs-endowment`
+- `email:templates/generic`
 
 ### Components
 

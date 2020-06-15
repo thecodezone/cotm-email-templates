@@ -697,7 +697,12 @@
                                                     valign="top"
                                                     style="padding-right: 9px; padding-left: 9px; padding-top: 9px; padding-bottom: 9px; text-align:center;">
 
-                                                                                                            <h1 style="text-align: center; margin-bottom: 10px;">Church on the Move</h1>
+                                                                                                            <img align="center"
+                                                             alt=""
+                                                             src="https://gallery.mailchimp.com/9789e9744a413a4719ac216a4/images/88f15590-ddff-454d-9585-523708eb09d7.png"
+                                                             width="50"
+                                                             style="max-width:100px; padding-bottom: 0; display: inline !important; vertical-align: bottom;"
+                                                             class="mcnRetinaImage">
                                                     
                                                 </td>
                                             </tr>
@@ -754,7 +759,9 @@
     <tr>
         <td valign="top" class="mcnTextContent" style="padding-top: 30px; padding-right: 30px; padding-bottom: 30px; padding-left: 30px;">
 
-            {% block content %}{% endblock %}
+            {% block body %}
+                {{ body|default("") }}
+            {% endblock %}
 
         </td>
     </tr>
@@ -1175,7 +1182,14 @@
                                                     style="padding-top:0; padding-right:18px; padding-bottom:9px; padding-left:18px;">
 
                                                         
-        {% block legal %}{% endblock %}
+        {% block legal %}
+            {% if legal|default %}
+                {{ legal }}
+            {% else %}
+                1003 N 129th E Ave, Tulsa, OK 74116<br />
+                Copyright © Church on the Move, All rights reserved.
+            {% endif %}
+        {% endblock %}
     
                                                 </td>
                                             </tr>
