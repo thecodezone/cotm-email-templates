@@ -8,7 +8,7 @@
     $dark = $dark ?? '#f5f5f5';
     $darker = $darker ?? '#EEEEEE';
     $black = $black ?? '#000';
-    $brand = $brand ?? '#EC0843';
+    $brand = $brand ?? '#e53539';
 ?>
 
 <style type="text/css">

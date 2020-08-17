@@ -233,7 +233,7 @@
         }
 
         #templateHeader .mcnTextContent a, #templateHeader .mcnTextContent p a {
-            color: #ee315f;
+            color: #e53539;
             font-weight: normal;
             text-decoration: underline;
         }
@@ -257,7 +257,7 @@
         }
 
         #templateBody .mcnTextContent a, #templateBody .mcnTextContent p a {
-            color: #ee315f;
+            color: #e53539;
             font-weight: normal;
             text-decoration: underline;
         }

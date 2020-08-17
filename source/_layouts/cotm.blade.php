@@ -233,7 +233,7 @@
         }
 
         #templateHeader .mcnTextContent a, #templateHeader .mcnTextContent p a {
-            color: #ee315f;
+            color: #e53539;
             font-weight: normal;
             text-decoration: underline;
         }
@@ -257,7 +257,7 @@
         }
 
         #templateBody .mcnTextContent a, #templateBody .mcnTextContent p a {
-            color: #ee315f;
+            color: #e53539;
             font-weight: normal;
             text-decoration: underline;
         }
@@ -566,7 +566,7 @@
                                                     @section('logo')
                                                         <img align="center"
                                                              alt=""
-                                                             src="https://gallery.mailchimp.com/9789e9744a413a4719ac216a4/images/88f15590-ddff-454d-9585-523708eb09d7.png"
+                                                             src="https://mcusercontent.com/9789e9744a413a4719ac216a4/images/e20625c1-5765-43e0-ac78-d5801d71166c.png"
                                                              width="50"
                                                              style="max-width:100px; padding-bottom: 0; display: inline !important; vertical-align: bottom;"
                                                              class="mcnRetinaImage">
