@@ -31,7 +31,7 @@
     },
     "extra": {
         "name": "Email Templates",
-        "handle": "email-templates",
+        "handle": "cotm-email-templates",
         "laravel": {
             "providers": [
                 "Cotm\\EmailTemplates\\EmailTemplatesServiceProvider"
